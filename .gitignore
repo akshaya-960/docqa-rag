@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+*.log
+
+# Env
+.env
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# Data (don't commit real documents or model caches)
+data/sample_docs/*
+!data/sample_docs/.gitkeep
+.cache/
+*.db
+
+# OS
+.DS_Store
